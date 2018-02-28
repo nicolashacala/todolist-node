@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Real-time Todolist app</title>
+    </head>
+
+    <body>
+        <h1>Real-time Todolist app</h1>
+        <ul id="todolist"></ul>
+        <form action="/" method="post" id="todolistForm">
+            <label for="task">My next task?</label>
+            <input type="text" name="task" id="task" placeholder="Your next task..." autofocus required>
+            <button type="submit" id="sendTask">Submit</button>
+        </form>
+        <script src="http://code.jquery.com/jquery-1.12.2.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="js/todolist.js"></script>
+    </body>
+</html>

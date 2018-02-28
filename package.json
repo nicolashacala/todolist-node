@@ -1,0 +1,11 @@
+{
+    "name": "my-todolist",
+    "version": "0.1.0",
+    "dependencies": {
+        "express": "~4.16.2",
+        "ent": "~2.2.0",
+        "socket.io": "~2.0.4"
+    },
+    "author": "kobal",
+    "description": "A very basic todo list manager"
+}
